@@ -1,0 +1,240 @@
+.jpt {
+    background-color: rgb(238, 238, 238);
+}
+.main_content{
+    border: 2px solid rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px
+}
+.main_topic{
+    border: 2px solid rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+.problem_topic{
+    padding-right: 370px;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.problem_topic_textarea{
+    height: 28px;
+    width: 472px;
+    font-size: 17px;
+    border: 1px solid rgb(187 176 176);
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.explaination{
+    padding-right: 382px;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.explaination_textarea{
+    height: 200px;
+    width: 472px;
+    font-size: 15px;
+    border: 1px solid rgb(187 176 176);
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding-top: 90px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.column_first {
+    padding: 43px;
+    text-align: center;
+}
+
+.main_heading {
+    font-size: 45px;
+}
+
+.column_second {
+    margin-top: 71px;
+}
+
+.submit_button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--site);
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 600;
+    background-color: var(--site);
+    color: white;
+}
+
+.submit_button:hover {
+    box-shadow: 0px 0px 6px var(--site);
+}
+
+.first_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.first_post_profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.first_post_profile_fullname {
+    font-weight: 400;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.kebab_icon {
+    margin-left: 850px;
+    background-color: white;
+    border-radius: 20px;
+    block-size: 26px;
+    inline-size: 38px;
+    vertical-align: text-bottom;
+    cursor: pointer
+}
+.mainlist{
+    list-style-type: none;
+    margin-left: 840px;
+    margin-top: 6px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px var(--site);
+    font-weight: 500;
+    font-size: 15px;
+}
+.editpost{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    text-align: center;
+    padding-right: 17px;
+}
+.mainlist :hover{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editicon{
+    margin-right: 9px;
+}
+.deletepost{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    text-align: center;
+}
+.deleteicon{
+    margin-right: 9px;
+}
+.topic {
+    padding-left: 39px;
+}
+.first_post_text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    max-width: 90%;
+}
+.main_line2 {
+    border-color: #f7f2f287;
+    margin: 16px;
+    margin-left: 0px;
+}
+.like_button2 {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 8px;
+    font-size: 18px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.like_icon {
+    padding-top: 2px;
+}
+
+.like_text {
+    padding-left: 8px;
+    font-size: 16px
+}
+
+.comment_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.comment_icon {
+    padding-top: 3px;
+}
+.comment_text {
+    padding-left: 8px;
+    font-size: 16px;
+}
+.suggest_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.suggest_icon {
+    padding-top: 2px;
+}
+.suggest_text {
+    padding-left: 8px;
+    font-size: 16px;
+}
+.share_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.share_icon {
+    padding-top: 2px;
+}
+.share_text {
+    padding-left: 8px;
+    font-size: 16px
+}

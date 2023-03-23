@@ -1,0 +1,476 @@
+/* .body {
+    background: rgb(238, 238, 238);
+} */
+
+.body {
+    height: 450px;
+    width: 1349px;
+    background-color: var(--site);
+}
+
+@media only screen and (max-width: 900px){
+    .body{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        background-color: white;
+        width: 100%;
+    }
+}
+
+
+
+.main_body {
+    background-color: rgb(238, 238, 238);
+}
+
+.menu_icon {
+    text-align: right;
+}
+
+.post_your_ideas {
+    margin-bottom: 13px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+}
+
+.first_post_text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    max-width: 90%;
+}
+
+.main_column {
+    border-radius: 10px;
+    width: 1000px;
+    display: inline-block;
+    margin-top: -215px;
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+}
+.all_button{
+    margin-left: 45px;
+    margin-bottom: 18px;
+}
+.image {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin-top: -71px;
+    margin-left: 395px;
+}
+
+.edit_profile {
+    margin-left: 300px;
+}
+
+.fullname {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.main_content {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.like_button {
+    border-radius: 20px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.follow_button {
+    border-radius: 20px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.following_button {
+    border-radius: 20px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.edit_profile_button {
+    border: 2px solid var(--site);
+    border-radius: 8px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: var(--site);
+    margin-top: 17px;
+    /* cursor:pointer; */
+}
+
+.edit_profile_button:hover {
+    background-color: var(--site);
+    color: rgb(255, 255, 255);
+}
+
+.main_bio {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 4px;
+}
+
+.main_card:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #E1BEE7;
+    transform: scaleY(1);
+    transition: all 0.5s;
+    transform-origin: bottom
+}
+
+.main_card:after {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #8E24AA;
+    transform: scaleY(0);
+    transition: all 0.5s;
+    transform-origin: bottom
+}
+
+.main_card:hover::after {
+    transform: scaleY(1);
+}
+
+
+.main_fonts {
+    font-size: 14px;
+    margin-left: 300px;
+    margin-right: 300px;
+    opacity: 0.7;
+}
+
+.work1 {
+    padding-bottom: 5px;
+}
+
+.main_social_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_social_list li {
+    padding: 10px;
+    color: #8E24AA;
+    font-size: 19px;
+}
+
+.profile_facebook_link {
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 46px;
+    width: 46px;
+    color: var(--site);
+}
+
+.facebook_icon {
+    font-size: 20px;
+}
+
+.profile_instagram_link {
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 46px;
+    width: 46px;
+    color: var(--site);
+}
+
+.instagram_icon {
+    font-size: 20px;
+}
+
+.instagram_icon :hover{
+    color-scheme: linear-gradient(red, yellow);
+}
+
+.profile_twitter_link {
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 46px;
+    width: 46px;
+    color: var(--site);
+}
+
+.twitter_icon {
+    font-size: 20px;
+}
+
+.message_button {
+    border: 2px solid var(--site);
+    border-radius: 20px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: var(--site);
+}
+
+.message_button:hover {
+    background-color: var(--site);
+    color: rgb(255, 255, 255);
+}
+
+.posts_link {
+    border-bottom: 2px solid var(--site);
+    font-weight: 600;
+}
+
+.topic {
+    padding-left: 39px;
+}
+
+.add_ideas {
+    margin-left: 750px;
+}
+
+.main_line {
+    border-color: #f7f2f287;
+}
+
+.main_line2 {
+    border-color: #f7f2f287;
+    margin: 16px;
+    margin-left: 0px;
+}
+
+.posts {
+    background-color: rgb(238, 238, 238);
+    padding-left: 172px;
+    padding-right: 172px;
+}
+
+.test{
+    opacity: 0.5;
+    margin-right: 7px;
+    font-size: 14px;
+}
+.first_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 25px;
+    box-shadow: 3px 3px 6px var(--site);
+    margin-top: 20px;
+}
+
+.first_post_profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.first_post_profile_fullname {
+    font-weight: 400;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.kebab_icon {
+    margin-left: 800px;
+    background-color: white;
+    border-radius: 20px;
+    block-size: 26px;
+    inline-size: 38px;
+    vertical-align: text-bottom;
+    cursor: pointer
+}
+.mainlist{
+    list-style-type: none;
+    margin-left: 805px;
+    margin-top: 6px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px var(--site);
+    font-weight: 500;
+    font-size: 15px;
+}
+.editpost{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    text-align: center;
+    padding-right: 17px;
+}
+.mainlist :hover{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editicon{
+    margin-right: 9px;
+}
+.deletepost{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    text-align: center;
+}
+.deleteicon{
+    margin-right: 9px;
+}
+.like_button2 {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 8px;
+    font-size: 18px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.like_icon {
+    padding-top: 2px;
+}
+
+.like_text {
+    padding-left: 8px;
+    font-size: 16px
+}
+
+.comment_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.comment_icon {
+    padding-top: 3px;
+}
+
+.suggest_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.suggest_icon {
+    padding-top: 2px;
+}
+
+.share_button {
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 100px;
+    background-color: rgb(238, 238, 238);
+    opacity: 0.7;
+}
+
+.share_icon {
+    padding-top: 2px;
+}
+
+.comment_text {
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.suggest_text {
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.share_text {
+    padding-left: 8px;
+    font-size: 16px
+}
+
+.second_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}
+
+.third_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}
+
+.forth_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}
+
+.fifth_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}
+
+.sixth_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}
+
+.seventh_post {
+    background-color: white;
+    border-radius: 17px;
+    padding: 50px;
+}

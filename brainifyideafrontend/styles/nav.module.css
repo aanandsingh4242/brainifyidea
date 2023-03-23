@@ -1,0 +1,44 @@
+.mainnav{
+    background-color: white;
+    padding-bottom: 34px;
+    box-shadow: 0px 0px 5px #a19d9a;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.nav li {
+    margin: 0 24px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav li :hover{
+    border: 0px solid var(--site);
+    border-radius: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    display: inline;
+    background-color: var(--site);
+    color: white;
+    box-shadow: 0px 0px 3px var(--site);
+}
+.search {
+    margin: 0 24px;
+    list-style: none;
+    font-weight: bold;
+    height: 35px;
+    width: 280px;
+    outline: none;
+    border: 1px solid rgb(187 176 176);
+    border-radius: 20px;
+    text-align: center;
+}

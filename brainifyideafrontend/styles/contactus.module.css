@@ -1,0 +1,336 @@
+.main_signup_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: var(--background);
+}
+
+.main_signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 0%;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.main_signup_box {
+    background-color: var(--white);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    display: flex;
+    width: 66.666667%;
+    max-width: 56rem;
+}
+
+/* login section css */
+.main_login {
+    width: 50%;
+    background: var(--site);
+    color: var(--white);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .main_login {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main_signup {
+        width: 100%;
+        padding: 0;
+    }
+
+    .main_signup_box {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        max-width: 100%;
+        position: fixed;
+    }
+
+    .signup_page {
+        width: 100% !important;
+        margin-top: 40px;
+    }
+}
+
+.send_message_content {
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-right: 45px;
+}
+
+.send_message_button {
+    border-radius: 10px;
+    background: rgb(255 109 42);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-right: 168px;
+}
+
+.send_message_button:hover {
+    background: rgb(227 74 4);
+}
+
+.main_send_message_button {
+    margin-bottom: 72px;
+}
+
+.signup_page {
+    width: 50%;
+}
+
+.signup_box {
+    padding-top: 12px;
+}
+
+.signup_box_content {
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 180px;
+}
+
+.contact_line {
+    margin-top: -29px;
+    margin-left: 40px;
+    border: 1px solid var(--site);
+    width: 58px;
+}
+
+/* .main_signup_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.form_name_box {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form_name_input {
+    border: none;
+    flex: 1 1;
+    background: transparent;
+    border-bottom: 1px solid #f7b87f;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_name_input::placeholder {
+    color: var(--white);
+    opacity: 0.7;
+}
+
+.form_email_box {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form_email_input {
+    border: none;
+    flex: 1 1;
+    background: transparent;
+    border-bottom: 1px solid #f7b87f;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_email_input::placeholder {
+    color: var(--white);
+    opacity: 0.7;
+}
+.form_subject_box {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form_subject_input::placeholder {
+    color: var(--white);
+    opacity: 0.7;
+}
+.form_subject_input {
+    border: none;
+    flex: 1 1;
+    background: transparent;
+    border-bottom: 1px solid #f7b87f;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_message_box {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form_message_input {
+    border: none;
+    flex: 1 1;
+    background: transparent;
+    border-bottom: 1px solid #f7b87f;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 0.30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130px;
+}
+.form_message_input::placeholder {
+    color: var(--white);
+    opacity: 0.7;
+}
+.signup_button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--site);
+    border-radius: 9999px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    color: var(--site);
+    margin-top: 17px;
+}
+
+.signup_button:hover {
+    background-color: var(--site);
+    color: var(--white);
+}
+
+.signup_or_content {
+    color: #958a8a;
+    padding-left: 41px;
+    padding-right: 35px;
+    text-align: initial;
+}
+
+.signup_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook_link {
+    border-width: 2px;
+    border-radius: 9999px;
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    height: 46px;
+    width: 46px;
+    background: #282e46;
+    color: var(--white);
+}
+
+.facebook_icon {
+    font-size: 20px;
+}
+
+.instagram_link {
+    border-width: 2px;
+    border-radius: 9999px;
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    height: 46px;
+    width: 46px;
+    background-image: linear-gradient(163deg, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    /* background-image: conic-gradient(#4285f4 0deg,#4285f4 90deg,#34a853 90deg,#34a853 180deg,#fbbc05 180deg,#fbbc05 270deg,#ea4335 270deg); */
+    color: var(--white);
+}
+
+.google_icon {
+    font-size: 20px;
+}
+
+.linkedin_link {
+    border-width: 2px;
+    border-radius: 9999px;
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    height: 46px;
+    width: 46px;
+    background: #0075B5;
+    color: var(--white);
+}
+
+.supportmail_link {
+    opacity: 0.8;
+}
+
+.supportmail_icon {
+    margin-right: 16px;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+.supportmail_content {
+    font-size: 17px;
+}
+
+.supportmail_content:hover {
+    color: var(--site);
+}
+.linkedin_icon {
+    font-size: 17px;
+}
+
+.signup_twitter_link {
+    border-width: 2px;
+    border-radius: 9999px;
+    padding: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    height: 46px;
+    width: 46px;
+    background: #1DA1F2;
+    color: var(--white);
+}
+
+.twitter_icon {
+    font-size: 18px;
+}
+
+.last_login_link {
+    color: var(--site);
+}
